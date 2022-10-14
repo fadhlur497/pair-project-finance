@@ -17,8 +17,8 @@ router.get('/admin', (req,res) => res.render('admin'))
 router.get("/add", adminController.renderadd)
 router.post('/add', adminController.handleadd)
 router.get('/admin/investment', adminController.readInventsments)
-router.get('/admin/investment/:id', adminController.getInvestmentId)
 router.get('/admin/user', adminController.readuser)
+router.get('/admin/investment/:id', adminController.getInvestmentId)
 router.use(function (req, res, next) {
     if(!req.session.userId) {
         const error = "Please Login First"

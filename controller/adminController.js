@@ -25,8 +25,9 @@ class adminController {
     }
 
     static handleadd (request, response){
-        const { username, email, role, BankBalance} = request.body
-        User.create(username, email, role, BankBalance)
+        console.log(request.body);
+        const { username, email, role, BankBalance, password} = request.body
+        User.create({username, email, role, BankBalance, password})
         .then((user) => {
             response.redirect('/admin/user')
         })
@@ -60,11 +61,12 @@ class adminController {
             attributes: ['id', 'name', 'amount'],
             include: {
                 model: User,
-                attributes: ['id','username', 'email']
+                attributes: ['id','username', 'email', 'role', 'BankBalance']
             }  
         })
         .then((data) => {
             response.render('investmentId', { data }) 
+            // response.send(data)
         })
         .catch((err) => {
             response.send(err)
