@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Ethan Kloster",
+        "age": 22,
+        "PIN": "413413",
+        "UserId": 1
+    },
+    {
+        "name": "Magdaia Bidder",
+        "age": 21,
+        "PIN": "123123",
+        "UserId": 2
+    },
+    {
+        "name": "Jeri Fylan",
+        "age": 21,
+        "PIN": "213213",
+        "UserId": 3
+    },
+    {
+        "name": "Edgardo Popelay",
+        "age": 36,
+        "PIN": "312312",
+        "UserId": 4
+    }
+]

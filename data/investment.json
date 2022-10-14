@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Deposito",
+        "amount": 5000000
+    },
+    {
+        "name": "Saham",
+        "amount": 10000000
+    },
+    {
+        "name": "Reksa Dana",
+        "amount": 7000000
+    },
+    {
+        "name": "Peer to Peer",
+        "amount": 10000000
+    }
+]

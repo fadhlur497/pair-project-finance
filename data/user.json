@@ -1,0 +1,30 @@
+[
+    {
+        "username": "ekloster0",
+        "email": "ekloster0@fc2.com",
+        "password": "xL6eeFs0ZoA",
+        "role": "user",
+        "InvestmentId": "1"
+    },
+    {
+        "username": "mbidder1",
+        "email": "mbidder1@shutterfly.com",
+        "role": "user",
+        "password": "5cW257",
+        "InvestmentId": "2"
+    },
+    {
+        "username": "jfylan2",
+        "email": "jfylan2@ustream.tv",
+        "role": "user",
+        "password": "KGVEf5mPah25",
+        "InvestmentId": "3"
+    },
+    {
+        "username": "epopelay3",
+        "email": "epopelay3@goo.gl",
+        "role": "user",
+        "password": "ojki2aeP5nih",
+        "InvestmentId": "4"
+    }
+]
